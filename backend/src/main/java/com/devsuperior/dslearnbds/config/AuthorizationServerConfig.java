@@ -1,4 +1,4 @@
-package com.devsuperior.dslearn.config;
+package com.devsuperior.dslearnbds.config;
 
 import java.util.Arrays;
 
@@ -16,7 +16,7 @@ import org.springframework.security.oauth2.provider.token.TokenEnhancerChain;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
-import com.devsuperior.dslearn.components.JwtTokenEnhancer;
+import com.devsuperior.dslearnbds.components.JwtTokenEnhancer;
 
 @Configuration
 @EnableAuthorizationServer

@@ -1,4 +1,4 @@
-package com.devsuperior.dslearn.config;
+package com.devsuperior.dslearnbds.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

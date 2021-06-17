@@ -11,10 +11,10 @@ import org.springframework.web.bind.MethodArgumentNotValidException;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 
-import com.devsuperior.dslearn.services.exceptions.DatabaseException;
-import com.devsuperior.dslearn.services.exceptions.ForbiddenException;
-import com.devsuperior.dslearn.services.exceptions.ResourceNotFoundException;
-import com.devsuperior.dslearn.services.exceptions.UnauthorizedException;
+import com.devsuperior.dslearnbds.services.exceptions.DatabaseException;
+import com.devsuperior.dslearnbds.services.exceptions.ForbiddenException;
+import com.devsuperior.dslearnbds.services.exceptions.ResourceNotFoundException;
+import com.devsuperior.dslearnbds.services.exceptions.UnauthorizedException;
 
 @ControllerAdvice
 public class ResourceExceptionHandler {

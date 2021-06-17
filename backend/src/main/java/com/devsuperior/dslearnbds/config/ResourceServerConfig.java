@@ -1,4 +1,4 @@
-package com.devsuperior.dslearn.config;
+package com.devsuperior.dslearnbds.config;
 
 import java.util.Arrays;
 

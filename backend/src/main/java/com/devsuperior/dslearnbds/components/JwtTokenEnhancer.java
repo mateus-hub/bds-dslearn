@@ -1,4 +1,4 @@
-package com.devsuperior.dslearn.components;
+package com.devsuperior.dslearnbds.components;
 
 import java.util.HashMap;
 import java.util.Map;

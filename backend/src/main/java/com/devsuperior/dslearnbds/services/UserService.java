@@ -11,10 +11,10 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.devsuperior.dslearn.services.exceptions.ResourceNotFoundException;
 import com.devsuperior.dslearnbds.dto.UserDTO;
 import com.devsuperior.dslearnbds.entities.User;
 import com.devsuperior.dslearnbds.repositories.UserRepository;
+import com.devsuperior.dslearnbds.services.exceptions.ResourceNotFoundException;
 
 @Service
 public class UserService implements UserDetailsService {
